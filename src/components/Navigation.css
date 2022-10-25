@@ -1,0 +1,32 @@
+.navUp {
+  background-color: #43989b;
+  color: aliceblue;
+}
+.navDown {
+  display: flex;
+  margin-top: 5px;
+}
+.search {
+  flex: 1; /* shorthand for: flex-grow: 1, flex-shrink: 1, flex-basis: 0 */
+  display: flex;
+  justify-content: flex-start;
+}
+.register {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.centerBrand {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.brand {
+  font-size: x-large;
+  font-family: "Freehand", cursive;
+}
+.rigthNav {
+  display: flex;
+}

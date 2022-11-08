@@ -28,9 +28,13 @@ const NavigationBar = () => {
 
         <Nav.Item className="register">
           <div className="rigthNav">
-            <Nav.Link eventKey="link-2">REGISTER</Nav.Link>
-            <Nav.Link eventKey="link-2">SIGN IN</Nav.Link>
-            <Nav.Link eventKey="link-2">
+            <Nav.Link className="myLinks" eventKey="link-2">
+              REGISTER
+            </Nav.Link>
+            <Nav.Link className="myLinks" eventKey="link-2">
+              SIGN IN
+            </Nav.Link>
+            <Nav.Link className="myLinks" eventKey="link-2">
               <AiOutlineShoppingCart size={28} />
             </Nav.Link>
           </div>

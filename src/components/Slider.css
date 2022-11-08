@@ -9,11 +9,26 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: 10;
   cursor: pointer;
+}
+.flexList {
+  display: flex;
+}
+.homeContent {
+  display: flex;
+  /* border: green solid; */
+  /* slider of the pic*/
+  transform: translateX(-0vh);
+  width: 190vh;
+  /*animation*/
+  transition: 1.5s ease;
+  background-color: rgb(245, 243, 243);
 }
 .arrowLeft {
   align-self: center;
   margin-left: 10px;
+  z-index: 10;
   border-radius: 40px;
   width: 60px;
   height: 60px;
@@ -24,23 +39,25 @@
   cursor: pointer;
 }
 .mainSlide {
+  overflow-x: hidden;
   display: flex;
-  width: 100%;
+  width: fit-content;
   height: 100vh;
-  border: green solid;
+
+  background-color: rgb(245, 243, 243);
 }
 .arrowIcon {
   align-self: center;
 }
 .arrowLeft :hover {
   background-color: rgb(116, 202, 242);
-  width: 60px;
+  width: 40px;
   border-radius: 40px;
-  height: 60px;
+  height: 40px;
 }
 .arrowRight :hover {
   background-color: rgb(116, 202, 242);
-  width: 60px;
+  width: 40px;
   border-radius: 40px;
-  height: 60px;
+  height: 40px;
 }

@@ -1,6 +1,8 @@
 .navUp {
   background-color: #43989b;
   color: aliceblue;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 .navDown {
   display: flex;
@@ -9,6 +11,7 @@
 .myLinks:hover {
   background-color: #35ede0;
   border-radius: 20px;
+  transition: all 0.6s ease;
 }
 .myLinks {
   border-radius: 20px;

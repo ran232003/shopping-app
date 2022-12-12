@@ -3,8 +3,9 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  margin-left: 10px;
   margin-right: 10px;
+  flex: 1 4 50%;
+
   background-color: rgb(245, 243, 243);
   /* border: green solid; */
 }

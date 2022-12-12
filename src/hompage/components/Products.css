@@ -1,0 +1,4 @@
+.mainProducts {
+  display: flex;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,13 @@
+.flexLine {
+  display: flex;
+  margin-bottom: 30px;
+}
+.header {
+  margin-right: 10px;
+}
+.mainCategoryPage {
+  margin-left: 10px;
+}
+.selectMain {
+  margin-right: 10px;
+}

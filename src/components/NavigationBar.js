@@ -36,7 +36,7 @@ const NavigationBar = () => {
             </Nav.Link>
             <Nav.Link
               as={Link}
-              to={"/auth/signin"}
+              to={"/auth/login"}
               className="myLinks"
               eventKey="link-2"
             >
